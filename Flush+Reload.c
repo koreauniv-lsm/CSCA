@@ -16,12 +16,13 @@ static char __attribute__((aligned(4096))) probe_arr[256*4096];
 size_t res[256];
 
 int main(int argc, char *argv[]) {
+	
+	printf("- Detection flush_reload_theshold:%d\n",(int)detect_flush_reload_threshold());
 
         memset(probe_arr, 0x0, sizeof(probe_arr));
         memset(res, 0x0, sizeof(res));
         
-        int target_number = 84;	
-	target_number = atoi(argv[1]); //default is 84
+	int target_number = atoi(argv[1]);
 
         for(int j=0; j<LOOP; j++){
                 for(int i=0; i<256; i++)
