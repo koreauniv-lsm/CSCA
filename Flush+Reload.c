@@ -11,7 +11,6 @@
 #define _4KB 4096
 #define LOOP 10000
 
-
 static char __attribute__((aligned(4096))) probe_arr[256*4096];
 
 size_t res[256];
@@ -33,7 +32,6 @@ int main(int argc, char *argv[]) {
                 for(int i=0; i<256; i++)
                         res[i]+=reload_t(probe_arr + i*_4KB);
         }
-
 
         for(int i=0; i<256; i++)
                 printf("%d: %d\n", i, (int)(res[i]/LOOP));

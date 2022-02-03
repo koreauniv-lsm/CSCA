@@ -20,7 +20,7 @@ for i,each in enumerate(y):
 	if each < 300:
 		i = int(str(i),10)
 		target_value = i
-		print(str(i)+":"+str(each))
+		print('-Target: '+str(i)+"(latency: "+str(each)+")")
 plt.plot(x,y)
 plt.xlabel("Probing value")
 plt.ylabel("Time (Cycle)")
