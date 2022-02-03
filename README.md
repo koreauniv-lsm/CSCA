@@ -54,7 +54,7 @@ $ ./run.sh {Target_cache_line}
 
 * Finally, the picture is sent to the e-mail address set by the user.
 
-![image](https://user-images.githubusercontent.com/98804474/152308953-3d5a79ca-28c4-4df7-920e-810697a4248e.png)
+![image](https://user-images.githubusercontent.com/67637935/152310245-c699406a-94d5-4250-9c81-48fdfc904e1a.png)
 
 * You can check the picture in your mail box (or spam box)
 
