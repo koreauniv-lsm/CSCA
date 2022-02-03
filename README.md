@@ -1,4 +1,4 @@
-# Concept of CSCA (Cache Side Channel Attack / Lab 9: Flush+Reload)
+# Concept of CSCA (Cache Side Channel Attack / Lab 9)
 This repository contains two proof-of-concept of cache side-channel attack (i.e., Flush+Reload). 
 As all PoCs are only successfully mounted on Intel CPUs with Ubuntu, please checks your environment.
 We demonstrated the demos in Ubuntu 16.04 LTS and Intel core i5-7400 3.00 GHz.
